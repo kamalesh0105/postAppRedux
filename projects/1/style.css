@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.main {
+  padding-top: 10%;
+}
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.welcomehead {
+  text-align: center;
+}
+.wrapper {
+  width: 1000px;
+  height: 300px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  background-color: #c2e6f4;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+.inner-wrapper {
+  /* Use flex container */
+  justify-content: space-between; /* Distribute items horizontally */
+  align-items: center; /* Center items vertically */
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.input-box {
+  display: inline-flex;
+  padding-left: 100px;
+}
+.input-box input {
+  text-align: center;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.btn {
+  border-radius: 10px;
+  color: #fff;
+  background-color: coral;
+  padding-top: 5px;
+  font-size: medium;
+  display: flex; /* Use flex container */
+  justify-content: center; /* Center the content horizontally */
+  width: 220px;
+  height: 40px;
+  margin: auto; /* Center the button within its container */
+}
