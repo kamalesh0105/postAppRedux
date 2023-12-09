@@ -1,12 +1,11 @@
-//app.js
-import React from "react";
-import Postlist from "./features/post/postList";
-import AddPostForm from "./features/post/AddPostForm";
+import PostsList from "./features/posts/PostsList";
+import AddPostForm from "./features/posts/AddPostForm";
+
 function App() {
   return (
-    <main className="Appclass">
+    <main className="App">
       <AddPostForm />
-      <Postlist />
+      <PostsList />
     </main>
   );
 }
